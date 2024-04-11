@@ -1,0 +1,7 @@
+[swift]
+format = "[$symbol($version )]($style)"
+symbol = "ﯣ "
+style = "bold fg:214"
+
+[ruby]
+disabled=true
