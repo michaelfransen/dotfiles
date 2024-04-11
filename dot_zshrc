@@ -1,0 +1,16 @@
+#######################################################
+# load Square specific zshrc; please don't change this bit.
+#######################################################
+if [[ -f ~/Development/config_files/square/zshrc ]]; then
+    source ~/Development/config_files/square/zshrc
+fi
+#######################################################
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+eval "$(starship init zsh)"
+eval "$(jump shell)"
+
+alias est='defaults write com.apple.iphonesimulator ShowSingleTouches -bool YES'
+alias dst='defaults write com.apple.iphonesimulator ShowSingleTouches -bool NO'
