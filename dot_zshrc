@@ -6,6 +6,8 @@ if [[ -f ~/Development/config_files/square/zshrc ]]; then
 fi
 #######################################################
 
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
