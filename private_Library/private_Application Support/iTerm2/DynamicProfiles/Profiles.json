@@ -1,4 +1,6 @@
 {
+"Profiles": [
+{
   "Transparency" : 0,
   "Tags" : [
 
@@ -297,7 +299,7 @@
       "Text" : "[1;2P"
     }
   },
-  "Window Type" : 0,
+  "Window Type" : 1,
   "Background Image Location" : "",
   "Blur" : false,
   "Badge Color" : {
@@ -397,4 +399,6 @@
     "Alpha Component" : 1,
     "Green Component" : 0.4156862199306488
   }
+}
+]
 }
