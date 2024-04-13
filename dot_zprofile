@@ -1,0 +1,2 @@
+# Homebrew startup
+eval "$(/opt/homebrew/bin/brew shellenv)"
