@@ -1,0 +1,14 @@
+{{- if eq .chezmoi.os "darwin" -}}
+#!/bin/bash
+
+mkdir temp-nerd-fonts
+cd temp-nerd-fonts
+git clone --depth 1  https://github.com/ryanoasis/nerd-fonts.git
+cd nerd-fonts
+chmod +x install.sh
+./install.sh FiraCode
+cd ../..
+rm -rf temp-nerd-fonts
+
+
+{{ end -}}
