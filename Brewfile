@@ -1,8 +1,3 @@
-{{- if eq .chezmoi.os "darwin" -}}
-#!/bin/bash
-
-brew bundle --no-lock --file=/dev/stdin <<EOF
-
 brew 'zsh-autosuggestions'
 brew 'starship'
 brew 'xcodesorg/made/xcodes'
@@ -12,6 +7,3 @@ brew 'jump'
 cask 'iTerm2'
 cask 'kaleidoscope'
 cask '1password'
-
-EOF
-{{ end -}}
