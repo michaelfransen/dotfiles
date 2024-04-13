@@ -2,11 +2,16 @@
 #!/bin/bash
 
 brew bundle --no-lock --file=/dev/stdin <<EOF
+
+tap 'homebrew/cask-fonts'
+
 brew 'zsh-autosuggestions'
 brew 'starship'
 brew 'xcodesorg/made/xcodes'
 
 # Casks
 cask 'iTerm2'
+cask 'font-fira-code'
+
 EOF
 {{ end -}}
