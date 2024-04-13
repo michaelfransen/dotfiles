@@ -2,7 +2,10 @@
 #!/bin/bash
 
 brew bundle --no-lock --file=/dev/stdin <<EOF
-brew "zsh-autosuggestions"
-brew "starship"
+brew 'zsh-autosuggestions'
+brew 'starship'
+
+# Casks
+cask 'iTerm2'
 EOF
 {{ end -}}
