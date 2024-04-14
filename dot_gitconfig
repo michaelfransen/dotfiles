@@ -17,3 +17,5 @@
 	trustExitCode = true
 [mergetool]
 	prompt = false
+[alias]
+        co = checkout
